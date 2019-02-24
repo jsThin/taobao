@@ -1,0 +1,32 @@
+.triangle_facing_right {  
+    display: inline-block;  
+    border-right: 1px solid #A1A1A1; 
+    border-bottom: 1px solid #A1A1A1;  
+    width: 6px; 
+    height: 6px;  
+    transform: rotate(-45deg);  
+}  
+.triangle_facing_left {  
+    display: inline-block;  
+    border-left: 1px solid #A1A1A1; 
+    border-bottom: 1px solid #A1A1A1;  
+    width: 6px; 
+    height: 6px;  
+    transform: rotate(45deg);  
+}  
+.triangle_facing_top {  
+    display: inline-block;  
+    border-top: 1px solid #A1A1A1; 
+    border-left: 1px solid #A1A1A1;  
+    width: 6px; 
+    height: 6px;  
+    transform: rotate(45deg);  
+}
+.triangle_facing_bottom {  
+    display: inline-block;  
+    border-bottom: 1px solid #A1A1A1; 
+    border-right: 1px solid #A1A1A1;  
+    width: 6px; 
+    height: 6px;  
+    transform: rotate(45deg);  
+}
